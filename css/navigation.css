@@ -1,0 +1,216 @@
+/* Navigation CSS start */
+.navigation {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo-image {
+    width: 300px;
+    height: 150px;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    -webkit-box-shadow: 4px 4px 20px 6px rgba(0,0,0,0.4);
+    -moz-box-shadow: 4px 4px 20px 6px rgba(0,0,0,0.4);
+    box-shadow: 4px 4px 20px 6px rgba(0,0,0,0.4);
+}
+
+.dropdown-content > a  {
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 12px 16px;
+    display: block;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown > a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.hr-style {
+    /* Gradient transparent - color - transparent */
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.nav-element > a  {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nav-photo-place {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.nav-content-place {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.hamburger {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding: 0.5em;
+}
+
+.bar-1, .bar-2, .bar-3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+.change .bar-1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar-2 {
+    opacity: 0;
+}
+
+.change .bar-3 {
+    -webkit-transform: rotate(45deg) translate(-9px, -6px);
+    transform: rotate(45deg) translate(-9px, -6px);
+}
+
+.nav-hamburger-content, .nav-hamburger-link-li [hidden] {
+    display: none;
+}
+
+.show {
+    -webkit-box-shadow: 4px 4px 20px 6px rgba(0,0,0,0.4);
+    -moz-box-shadow: 4px 4px 20px 6px rgba(0,0,0,0.4);
+    box-shadow: 4px 4px 20px 6px rgba(0,0,0,0.4);
+    background-color: white;
+    display: block;
+    position: absolute;
+    list-style:none;
+    right: 15px;
+    padding: 10px 14px;
+    z-index: 1;
+}
+
+.nav-hamburger-link-li {
+    padding: 15px;
+}
+
+.nav-ham-link {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.nav-ham-action-link {
+    padding: 5px;
+}
+
+/* This is gona be used to make this fit for variety of screens */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+    .nav-content-place {
+        display: none;
+    }
+
+    .logo-image {
+        width: 200px;
+        height: 100px;
+    }
+
+    .show {
+        right: 0px;
+    }
+}
+
+/* Medium devices ----------- */
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+    .nav-content-place {
+        display: none;
+    }
+}
+
+/* Large devices ----------- */
+@media only screen and (min-width: 801px) and (max-width: 1223px){
+    .navigation {
+        margin: auto;
+        width: 95%;
+    }
+
+    .nav-hamburger-content-place {
+        display: none;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+    .navigation {
+        margin: auto;
+    }
+
+    .nav-hamburger-content-place {
+        display: none;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+    .navigation {
+        margin: auto;
+    }
+
+    .nav-hamburger-content-place {
+        display: none;
+    }
+}
+
+/* Navigation CSS end */

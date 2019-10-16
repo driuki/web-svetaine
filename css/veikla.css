@@ -1,0 +1,62 @@
+.content {
+    margin-top: 25px;
+}
+
+.content > h1 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.about > p {
+    font-style: italic;
+    margin: 75px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 2;
+    font-size: 25px;
+}
+
+.list {
+    list-style-type:square;
+    font-style: italic;
+    margin: 75px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 2;
+    font-size: 25px;
+}
+
+
+/* This is gona be used to make this fit for variety of screens */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+
+}
+
+/* Medium devices ----------- */
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+
+}
+
+/* Large devices ----------- */
+@media only screen and (min-width: 801px) and (max-width: 1223px){
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+
+}

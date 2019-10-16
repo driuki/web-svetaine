@@ -1,0 +1,111 @@
+.footer {
+    display: -webkit-flex;
+    display: flex;
+    background-color: rgb(95, 135, 255);
+    background-image: linear-gradient(90deg, rgb(95, 135, 255), rgb(255, 170, 105));
+    width: 100%;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.what-do {    
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.what-do > a {
+    text-decoration: none;
+    color: #123622;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.what-do > h6 {
+    color: #123622;
+    margin: 10px;
+}
+
+.what-do > a:hover {
+    color: greenyellow;
+}
+
+.contacts {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.contacts > p {
+    color: #123622;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.contacts > h6 {
+    color: #123622;
+    margin: 10px;
+}
+
+
+/* This is gona be used to make this fit for variety of screens */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+    .what-do > a {
+        font-size: 10px;
+        margin: 5px;
+    }
+    
+    .what-do > h6 {
+        margin: 5px;
+    }
+
+    .contacts > p {
+        font-size: 10px;
+        margin: 5px;
+    }
+    
+    .contacts > h6 {
+        margin: 5px;
+    }
+}
+
+/* Medium devices ----------- */
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+
+}
+
+/* Large devices ----------- */
+@media only screen and (min-width: 801px) and (max-width: 1223px){
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+    .what-do > a {
+        font-size: 20px;
+        margin: 15px;
+    }
+    
+    .what-do > h6 {
+        margin: 15px;
+    }
+
+    .contacts > p {
+        font-size: 20px;
+        margin: 15px;
+    }
+    
+    .contacts > h6 {
+        margin: 15px;
+    }
+}
