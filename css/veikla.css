@@ -38,17 +38,29 @@
 /* This is gona be used to make this fit for variety of screens */
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 300px) and (max-width: 480px) {
-
+    .about > p {
+        margin: 50px;
+        word-spacing: 3px;
+        font-size: 20px;
+    }
 }
 
 /* Medium devices ----------- */
 @media only screen and (min-width: 481px) and (max-width: 800px) {
-
+    .about > p {
+        margin: 50px;
+        word-spacing: 3px;
+        font-size: 20px;
+    }
 }
 
 /* Large devices ----------- */
 @media only screen and (min-width: 801px) and (max-width: 1223px){
-
+    .about > p {
+        margin: 50px;
+        word-spacing: 3px;
+        font-size: 20px;
+    }
 }
 
 /* Desktops and laptops ----------- */

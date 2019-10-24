@@ -93,7 +93,6 @@
 
 .flip-card-back > button {
     background-color: rgb(63, 204, 68);
-    /*border: 2px solid rgb(63, 204, 68);*/
     border: none;
     padding: 16px 32px;
     color: white;
@@ -116,12 +115,6 @@
     padding: 2em;
     line-height: 2;
     font-size: 25px;
-}
-
-.text-demo-lorem-ipsum {
-    font-style: italic;
-    letter-spacing: 2px;
-    padding: 2em
 }
 
 /* This is gona be used to make this fit for variety of screens */
@@ -244,7 +237,7 @@
         margin: 0 auto;
         width: 80%;
     }
-    
+
     .flip-card {
         margin: 5px 5px;
     }

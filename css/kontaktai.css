@@ -29,14 +29,6 @@
     margin: 40px 0px 0px 60px;
 }
 
-/* #includeFooter {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: -1;
-} */
-
 /* This is gona be used to make this fit for variety of screens */
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 300px) and (max-width: 480px) {
