@@ -1,11 +1,17 @@
-$('#kurimas').click(function(){
-    window.location = '../veikla/svetainiu-kurimas.html';
+$(function(){
+    $('#kurimas').click(function(){
+        window.location.href = '../veikla/svetainiu-kurimas.html';
+    });
 });
 
-$('#seo').click(function(){
-    window.location = '../veikla/seo.html';
+$(function(){
+    $('#seo').click(function(){
+        window.location.replace = '../veikla/seo.html';
+    });
 });
 
-$('#prieziura').click(function(){
-    window.location = '../veikla/prieziura.html';
+$(function(){
+    $('#prieziura').click(function(){
+        window.location.href = '../veikla/prieziura.html';
+    });
 });
