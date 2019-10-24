@@ -49,7 +49,6 @@
 }
 
 .dropdown > a {
-    padding: 5px;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
@@ -67,7 +66,6 @@
 }
 
 .nav-element > a  {
-    padding: 5px;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
@@ -75,6 +73,10 @@
     letter-spacing: 2px;
     font-size: 20px;
     padding: 10px;
+}
+
+.nav-element {
+    text-align: center;
 }
 
 .nav-photo-place {
@@ -91,6 +93,7 @@
     padding-right: 20px;
     -webkit-justify-content: flex-end;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .hamburger {
@@ -184,6 +187,14 @@
     .navigation {
         margin: auto;
         width: 95%;
+    }
+
+    .nav-content-place {
+        margin-left: 40px;
+    }
+    
+    .nav-element {
+        margin: 25px;
     }
 
     .nav-hamburger-content-place {

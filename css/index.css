@@ -192,6 +192,7 @@
     .flip-card {
         background-color: transparent;
         width: 70%;
+        margin: 10px 0px;
         height: 500px;
         perspective: 1000px;
     }
@@ -211,6 +212,10 @@
         margin: 0 auto;
         width: 90%;
     }
+
+    .flip-card {
+        margin: 5px 5px;
+    }
 }
 
 /* Desktops and laptops ----------- */
@@ -223,6 +228,10 @@
         margin: 0 auto;
         width: 90%;
     }
+
+    .flip-card {
+        margin: 5px 5px;
+    }
 }
 
 /* Large screens ----------- */
@@ -234,5 +243,9 @@
     .elements {
         margin: 0 auto;
         width: 80%;
+    }
+    
+    .flip-card {
+        margin: 5px 5px;
     }
 }
